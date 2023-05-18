@@ -5,6 +5,12 @@
   width: 1728px;
   height: 1209px;
 }
+
+html, body{
+  width: 100%;
+  min-height: 100%;
+}
+
 .groupChild,
 .groupItem {
   position: absolute;

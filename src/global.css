@@ -5,6 +5,11 @@ body {
   margin: 0;
   line-height: normal;
 }
+
+html, body{
+  width: 100%;
+  min-height: 100%;
+}
 :root {
   /* fonts */
   --font-inter: Inter;
