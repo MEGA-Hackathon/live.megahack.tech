@@ -1,0 +1,452 @@
+import { FunctionComponent, useCallback } from "react";
+import styles from "./Desktop7.module.css";
+const Desktop7: FunctionComponent = () => {
+  const onVectorClick = useCallback(() => {
+    window.open(
+      "https://mega-hack-2022-spring.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    );
+  }, []);
+
+  const onVector1Click = useCallback(() => {
+    window.open(
+      "https://mega-hack-2022-spring.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    );
+  }, []);
+
+  return (
+    <div className={styles.desktop7}>
+      <img className={styles.desktop7Child} alt="" src="/rectangle-28.svg" />
+      <div className={styles.rectangleParent}>
+        <div className={styles.groupChild} />
+        <div className={styles.groupItem} />
+        <div className={styles.groupInner} />
+        <div className={styles.rectangleDiv} />
+        <div className={styles.groupChild1} />
+      </div>
+      <img className={styles.subtractIcon} alt="" />
+      <div className={styles.h59m35sWrapper}>
+        <div className={styles.h59m35s}>11h 59m 35s</div>
+      </div>
+      <div className={styles.vectorParent}>
+        <img className={styles.rectangleIcon} alt="" src="/rectangle-11.svg" />
+        <div className={styles.submissionGuidelinesParent}>
+          <b className={styles.submissionGuidelines}>Submission Guidelines</b>
+          <div className={styles.vectorGroup}>
+            <img className={styles.vectorIcon} alt="" onClick={onVectorClick} />
+            <img
+              className={styles.groupChild2}
+              alt=""
+              onClick={onVector1Click}
+            />
+            <b className={styles.learnMore}>LEARN MORE</b>
+          </div>
+          <b className={styles.learnMoreAbout}>
+            Learn More about MEGA and MEGA Events
+          </b>
+        </div>
+        <img className={styles.maskGroupIcon} alt="" src="/mask-group.svg" />
+      </div>
+      <div className={styles.component2}>
+        <div className={styles.component2Child} />
+        <div className={styles.groupParent}>
+          <img className={styles.groupIcon} alt="" src="/group-71.svg" />
+          <b className={styles.joinNow}>Join Now</b>
+        </div>
+        <div className={styles.sponsors}>Sponsors</div>
+        <div className={styles.about}>Return To Home Page</div>
+        <div className={styles.contact}>Contact</div>
+        <img className={styles.brandIcon} alt="" src="/brand@2x.png" />
+        <div className={styles.component2Item} />
+      </div>
+      <div className={styles.untilResults}>Until Results</div>
+      <div className={styles.openingCeremonyParent}>
+        <div className={styles.openingCeremony}>OPENING CEREMONY</div>
+        <img className={styles.image20Icon} alt="" src="/image-20@2x.png" />
+      </div>
+      <div className={styles.schedule}>SCHEDULE</div>
+      <div className={styles.openingCeremony1}>OPENING CEREMONY</div>
+      <div className={styles.pairingsAndMatchup}>PAIRINGS AND MATCHUP</div>
+      <div className={styles.round1}>Round 1:</div>
+      <div className={styles.s500530PmOpeningCereParent}>
+        <div className={styles.s500530PmContainer}>
+          <p className={styles.s}>
+            <b>
+              <span>S</span>
+            </b>
+          </p>
+          <p className={styles.blankLine}>
+            <span>
+              <b>&nbsp;</b>
+            </span>
+          </p>
+          <p className={styles.s}>
+            <span>
+              <b>{`5:00-5:30 p.m. `}</b>
+            </span>
+          </p>
+          <p className={styles.s}>
+            <span>
+              <span
+                className={styles.openingCeremonyConducted}
+              >{`[Opening Ceremony] Conducted by Agni `}</span>
+            </span>
+          </p>
+          <p className={styles.s}>
+            <span>
+              <b>&nbsp;</b>
+            </span>
+          </p>
+          <p className={styles.s}>
+            <span>
+              <b>5:30-5:45 p.m.</b>
+            </span>
+          </p>
+          <p className={styles.s}>
+            <span>
+              <span
+                className={styles.openingCeremonyConducted}
+              >{`[HyperEx Tutoria], Conducted by Daniel Achacon `}</span>
+            </span>
+          </p>
+          <p className={styles.s}>
+            <span>
+              <b>&nbsp;</b>
+            </span>
+          </p>
+          <p className={styles.s}>
+            <span>
+              <b>6:00-6:30 p.m.</b>
+              <span className={styles.openingCeremonyConducted}>{` `}</span>
+            </span>
+          </p>
+          <p className={styles.s}>
+            <span>
+              <span
+                className={styles.openingCeremonyConducted}
+              >{`[Rahul Desai, General Manager at Sylva] Moderated by Daniel Achacon `}</span>
+            </span>
+          </p>
+          <p className={styles.s}>
+            <span>
+              <b>&nbsp;</b>
+            </span>
+          </p>
+          <p className={styles.s}>
+            <span>
+              <b>6:30-7:00 p.m.</b>
+            </span>
+          </p>
+          <p className={styles.s}>
+            <span>
+              <span
+                className={styles.openingCeremonyConducted}
+              >{` [Avi Patel, CEO of Nitrility] Moderated by Chul `}</span>
+            </span>
+          </p>
+          <p className={styles.s}>
+            <span>
+              <b>&nbsp;</b>
+            </span>
+          </p>
+          <p className={styles.s}>
+            <span>
+              <b>{`7:00-7:30 p.m. `}</b>
+            </span>
+          </p>
+          <p className={styles.s}>
+            <span>
+              <span
+                className={styles.openingCeremonyConducted}
+              >{`[Brian Whaley VP at American Express] Moderated by Agni `}</span>
+            </span>
+          </p>
+          <p className={styles.s}>
+            <span>
+              <b>&nbsp;</b>
+            </span>
+          </p>
+          <p className={styles.s}>
+            <span>
+              <b>7:30-8:00 p.m.</b>
+              <span className={styles.openingCeremonyConducted}>{` `}</span>
+            </span>
+          </p>
+          <p className={styles.s}>
+            <span>
+              <span
+                className={styles.openingCeremonyConducted}
+              >{`[Chetan Zanwar Product Lead at Tiktok] Moderated by Jason Xu `}</span>
+            </span>
+          </p>
+          <p className={styles.s}>
+            <span>
+              <b>&nbsp;</b>
+            </span>
+          </p>
+          <p className={styles.s}>
+            <span>
+              <b>{`8:00-8:30 p.m. `}</b>
+            </span>
+          </p>
+          <p className={styles.s}>
+            <span>
+              <span
+                className={styles.openingCeremonyConducted}
+              >{`[Form Teams!!] Moderated by Daniel Achacon and Max Xiong `}</span>
+            </span>
+          </p>
+          <p className={styles.s}>
+            <span>
+              <span className={styles.openingCeremonyConducted}>&nbsp;</span>
+            </span>
+          </p>
+        </div>
+        <div className={styles.saturday100PmContainer}>
+          <p className={styles.s}>
+            <b>Saturday</b>
+          </p>
+          <p className={styles.blankLine}>
+            <span>
+              <span className={styles.openingCeremonyConducted}>{` `}</span>
+            </span>
+          </p>
+          <p className={styles.s}>
+            <span>
+              <b>{`1:00 PM - 1:15 PM `}</b>
+              <span className={styles.finals}>Opening Ceremony</span>
+            </span>
+          </p>
+          <p className={styles.s}>
+            <span>
+              <b>{`1:30-2:30 `}</b>
+              <span className={styles.finals}>Round 1</span>
+            </span>
+          </p>
+          <p className={styles.s}>
+            <span>
+              <b>{`3:00-4:00 `}</b>
+              <span className={styles.finals}>Round 2</span>
+            </span>
+          </p>
+          <p className={styles.s}>
+            <span>
+              <b>{`4:30-5:30 `}</b>
+              <span className={styles.finals}>Round 3</span>
+            </span>
+          </p>
+          <p className={styles.s}>
+            <span>
+              <b>&nbsp;</b>
+            </span>
+          </p>
+        </div>
+        <div className={styles.sundayRound4Container}>
+          <p className={styles.s}>
+            <b>Sunday</b>
+          </p>
+          <p className={styles.blankLine}>
+            <span>
+              <span className={styles.openingCeremonyConducted}>&nbsp;</span>
+            </span>
+          </p>
+          <p className={styles.s}>
+            <span>
+              <b className={styles.finals}>Round 4:</b>
+              <span> 1:30-2:30</span>
+            </span>
+          </p>
+          <p className={styles.s}>
+            <span>
+              <b>{`Semifinals: `}</b>
+              <span className={styles.finals}>3:00-4:00</span>
+            </span>
+          </p>
+          <p className={styles.s}>
+            <span>
+              <b className={styles.finals}>{`Finals: `}</b>
+              <span>4:30-5:30</span>
+            </span>
+          </p>
+          <p className={styles.s}>
+            <span>
+              <b>&nbsp;</b>
+            </span>
+          </p>
+          <p className={styles.s}>
+            <span>
+              <b>{`6:00-6:30 PM: `}</b>
+              <span>Closing Ceremony and Awards</span>
+            </span>
+          </p>
+          <p className={styles.s}>
+            <span>
+              <b>&nbsp;</b>
+            </span>
+          </p>
+        </div>
+      </div>
+      <div className={styles.table1}>
+        <div className={styles.table}>
+          <div className={styles.row}>
+            <div className={styles.cell}>
+              <div className={styles.content}>
+                <div className={styles.text}>Person 1 and Person 2</div>
+              </div>
+            </div>
+            <div className={styles.cell}>
+              <div className={styles.content}>
+                <div className={styles.text}>Person 3 and Person 4</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={styles.table10}>
+        <div className={styles.table}>
+          <div className={styles.row}>
+            <div className={styles.cell}>
+              <div className={styles.content}>
+                <div className={styles.text}>Person 1 and Person 2</div>
+              </div>
+            </div>
+            <div className={styles.cell}>
+              <div className={styles.content}>
+                <div className={styles.text}>Person 3 and Person 4</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={styles.table5}>
+        <div className={styles.table}>
+          <div className={styles.row}>
+            <div className={styles.cell}>
+              <div className={styles.content}>
+                <div className={styles.text}>Person 1 and Person 2</div>
+              </div>
+            </div>
+            <div className={styles.cell}>
+              <div className={styles.content}>
+                <div className={styles.text}>Person 3 and Person 4</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={styles.table9}>
+        <div className={styles.table}>
+          <div className={styles.row}>
+            <div className={styles.cell}>
+              <div className={styles.content}>
+                <div className={styles.text}>Person 1 and Person 2</div>
+              </div>
+            </div>
+            <div className={styles.cell}>
+              <div className={styles.content}>
+                <div className={styles.text}>Person 3 and Person 4</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={styles.table8}>
+        <div className={styles.table}>
+          <div className={styles.row}>
+            <div className={styles.cell}>
+              <div className={styles.content}>
+                <div className={styles.text}>Person 1 and Person 2</div>
+              </div>
+            </div>
+            <div className={styles.cell}>
+              <div className={styles.content}>
+                <div className={styles.text}>Person 3 and Person 4</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={styles.table7}>
+        <div className={styles.table}>
+          <div className={styles.row}>
+            <div className={styles.cell}>
+              <div className={styles.content}>
+                <div className={styles.text}>Person 1 and Person 2</div>
+              </div>
+            </div>
+            <div className={styles.cell}>
+              <div className={styles.content}>
+                <div className={styles.text}>Person 3 and Person 4</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={styles.table61}>
+        <div className={styles.table}>
+          <div className={styles.row}>
+            <div className={styles.cell}>
+              <div className={styles.content}>
+                <div className={styles.text}>Person 1 and Person 2</div>
+              </div>
+            </div>
+            <div className={styles.cell}>
+              <div className={styles.content}>
+                <div className={styles.text}>Person 3 and Person 4</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={styles.table41}>
+        <div className={styles.table}>
+          <div className={styles.row}>
+            <div className={styles.cell}>
+              <div className={styles.content}>
+                <div className={styles.text}>Person 1 and Person 2</div>
+              </div>
+            </div>
+            <div className={styles.cell}>
+              <div className={styles.content}>
+                <div className={styles.text}>Person 3 and Person 4</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={styles.table31}>
+        <div className={styles.table}>
+          <div className={styles.row}>
+            <div className={styles.cell}>
+              <div className={styles.content}>
+                <div className={styles.text}>Person 1 and Person 2</div>
+              </div>
+            </div>
+            <div className={styles.cell}>
+              <div className={styles.content}>
+                <div className={styles.text}>Person 3 and Person 4</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={styles.table21}>
+        <div className={styles.table}>
+          <div className={styles.row}>
+            <div className={styles.cell}>
+              <div className={styles.content}>
+                <div className={styles.text}>Person 1 and Person 2</div>
+              </div>
+            </div>
+            <div className={styles.cell}>
+              <div className={styles.content}>
+                <div className={styles.text}>Person 3 and Person 4</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Desktop7;
