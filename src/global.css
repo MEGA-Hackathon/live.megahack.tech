@@ -5,11 +5,6 @@ body {
   margin: 0;
   line-height: normal;
 }
-
-html, body{
-  width: 100%;
-  min-height: 100%;
-}
 :root {
   /* fonts */
   --font-inter: Inter;
@@ -37,6 +32,9 @@ html, body{
   --white: #fcfaff;
   --grid-color: #ede9f3;
   --primary-200: #bb86fc;
+
+  /* Gaps */
+  --gap-70xl: 89px;
 
   /* Paddings */
   --padding-3xs: 10px;

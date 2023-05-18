@@ -4,7 +4,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import Desktop7 from "./pages/Desktop7";
+import Desktop8 from "./pages/Desktop8";
 import { useEffect } from "react";
 
 function App() {
@@ -45,7 +45,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Desktop7 />} />
+      <Route path="/" element={<Desktop8 />} />
     </Routes>
   );
 }

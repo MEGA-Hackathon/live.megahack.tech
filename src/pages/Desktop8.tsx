@@ -1,21 +1,9 @@
-import { FunctionComponent, useCallback } from "react";
-import styles from "./Desktop7.module.css";
-const Desktop7: FunctionComponent = () => {
-  const onVectorClick = useCallback(() => {
-    window.open(
-      "https://mega-hack-2022-spring.devpost.com/?ref_feature=challenge&ref_medium=discover"
-    );
-  }, []);
-
-  const onVector1Click = useCallback(() => {
-    window.open(
-      "https://mega-hack-2022-spring.devpost.com/?ref_feature=challenge&ref_medium=discover"
-    );
-  }, []);
-
+import { FunctionComponent } from "react";
+import styles from "./Desktop8.module.css";
+const Desktop8: FunctionComponent = () => {
   return (
-    <div className={styles.desktop7}>
-      <img className={styles.desktop7Child} alt="" src="/rectangle-28.svg" />
+    <div className={styles.desktop8}>
+      <img className={styles.desktop8Child} alt="" src="/rectangle-29.svg" />
       <div className={styles.rectangleParent}>
         <div className={styles.groupChild} />
         <div className={styles.groupItem} />
@@ -27,41 +15,22 @@ const Desktop7: FunctionComponent = () => {
       <div className={styles.h59m35sWrapper}>
         <div className={styles.h59m35s}>11h 59m 35s</div>
       </div>
-      <div className={styles.vectorParent}>
-        <img className={styles.rectangleIcon} alt="" src="/rectangle-11.svg" />
-        <div className={styles.submissionGuidelinesParent}>
-          <b className={styles.submissionGuidelines}>Submission Guidelines</b>
-          <div className={styles.vectorGroup}>
-            <img className={styles.vectorIcon} alt="" onClick={onVectorClick} />
-            <img
-              className={styles.groupChild2}
-              alt=""
-              onClick={onVector1Click}
-            />
-            <b className={styles.learnMore}>LEARN MORE</b>
-          </div>
-          <b className={styles.learnMoreAbout}>
-            Learn More about MEGA and MEGA Events
-          </b>
-        </div>
-        <img className={styles.maskGroupIcon} alt="" src="/mask-group.svg" />
-      </div>
-      <div className={styles.component2}>
-        <div className={styles.component2Child} />
+      <div className={styles.component3}>
+        <div className={styles.component3Child} />
         <div className={styles.groupParent}>
-          <img className={styles.groupIcon} alt="" src="/group-71.svg" />
+          <img className={styles.groupIcon} alt="" src="/group-711.svg" />
           <b className={styles.joinNow}>Join Now</b>
         </div>
         <div className={styles.sponsors}>Sponsors</div>
         <div className={styles.about}>Return To Home Page</div>
         <div className={styles.contact}>Contact</div>
-        <img className={styles.brandIcon} alt="" src="/brand@2x.png" />
-        <div className={styles.component2Item} />
+        <img className={styles.brandIcon} alt="" src="/brand1@2x.png" />
+        <div className={styles.component3Item} />
       </div>
       <div className={styles.untilResults}>Until Results</div>
       <div className={styles.openingCeremonyParent}>
         <div className={styles.openingCeremony}>OPENING CEREMONY</div>
-        <img className={styles.image20Icon} alt="" src="/image-20@2x.png" />
+        <img className={styles.image20Icon} alt="" src="/image-201@2x.png" />
       </div>
       <div className={styles.schedule}>SCHEDULE</div>
       <div className={styles.openingCeremony1}>OPENING CEREMONY</div>
@@ -285,7 +254,7 @@ const Desktop7: FunctionComponent = () => {
           </p>
         </div>
       </div>
-      <div className={styles.table1}>
+      <div className={styles.table11}>
         <div className={styles.table}>
           <div className={styles.row}>
             <div className={styles.cell}>
@@ -301,7 +270,7 @@ const Desktop7: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <div className={styles.table10}>
+      <div className={styles.table12}>
         <div className={styles.table}>
           <div className={styles.row}>
             <div className={styles.cell}>
@@ -317,7 +286,7 @@ const Desktop7: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <div className={styles.table5}>
+      <div className={styles.table13}>
         <div className={styles.table}>
           <div className={styles.row}>
             <div className={styles.cell}>
@@ -333,7 +302,7 @@ const Desktop7: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <div className={styles.table9}>
+      <div className={styles.table14}>
         <div className={styles.table}>
           <div className={styles.row}>
             <div className={styles.cell}>
@@ -349,7 +318,7 @@ const Desktop7: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <div className={styles.table8}>
+      <div className={styles.table15}>
         <div className={styles.table}>
           <div className={styles.row}>
             <div className={styles.cell}>
@@ -365,7 +334,7 @@ const Desktop7: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <div className={styles.table7}>
+      <div className={styles.table16}>
         <div className={styles.table}>
           <div className={styles.row}>
             <div className={styles.cell}>
@@ -381,7 +350,7 @@ const Desktop7: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <div className={styles.table61}>
+      <div className={styles.table17}>
         <div className={styles.table}>
           <div className={styles.row}>
             <div className={styles.cell}>
@@ -397,7 +366,7 @@ const Desktop7: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <div className={styles.table41}>
+      <div className={styles.table18}>
         <div className={styles.table}>
           <div className={styles.row}>
             <div className={styles.cell}>
@@ -413,7 +382,7 @@ const Desktop7: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <div className={styles.table31}>
+      <div className={styles.table19}>
         <div className={styles.table}>
           <div className={styles.row}>
             <div className={styles.cell}>
@@ -429,7 +398,7 @@ const Desktop7: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <div className={styles.table21}>
+      <div className={styles.table20}>
         <div className={styles.table}>
           <div className={styles.row}>
             <div className={styles.cell}>
@@ -449,4 +418,4 @@ const Desktop7: FunctionComponent = () => {
   );
 };
 
-export default Desktop7;
+export default Desktop8;
