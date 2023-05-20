@@ -399,6 +399,7 @@ const Desktop8: FunctionComponent = () => {
           </div>
         </div>
       </div>
+</div>
   );
 };
 
