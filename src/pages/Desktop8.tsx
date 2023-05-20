@@ -58,7 +58,7 @@ const Desktop8: FunctionComponent = () => {
         <div className={styles.untilResults}>Until Results</div>
         <div className={styles.openingCeremonyParent}>
           <div className={styles.openingCeremony}>OPENING CEREMONY</div>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/5oWl4ldxSIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/5oWl4ldxSIs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
         </div>
         <div className={styles.schedule}>SCHEDULE</div>
         <div className={styles.openingCeremony1}>OPENING CEREMONY</div>
