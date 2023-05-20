@@ -259,12 +259,12 @@ const Desktop8: FunctionComponent = () => {
           <div className={styles.row}>
             <div className={styles.cell}>
               <div className={styles.content}>
-                <div className={styles.text}>Person 1 and Person 2</div>
+                <div className={styles.text}>Alp Battal & Selen Melis Battal</div>
               </div>
             </div>
             <div className={styles.cell}>
               <div className={styles.content}>
-                <div className={styles.text}>Person 3 and Person 4</div>
+                <div className={styles.text}>Erick Li Li</div>
               </div>
             </div>
           </div>
@@ -275,12 +275,12 @@ const Desktop8: FunctionComponent = () => {
           <div className={styles.row}>
             <div className={styles.cell}>
               <div className={styles.content}>
-                <div className={styles.text}>Person 1 and Person 2</div>
+                <div className={styles.text}>Yaasir Adeyemo & Nisha Bhardwaj</div>
               </div>
             </div>
             <div className={styles.cell}>
               <div className={styles.content}>
-                <div className={styles.text}>Person 3 and Person 4</div>
+                <div className={styles.text}>Sebastian Cho & Vishnu Nataraja</div>
               </div>
             </div>
           </div>
@@ -291,12 +291,12 @@ const Desktop8: FunctionComponent = () => {
           <div className={styles.row}>
             <div className={styles.cell}>
               <div className={styles.content}>
-                <div className={styles.text}>Person 1 and Person 2</div>
+                <div className={styles.text}>Vishwa Charabuddi vs Ailin Nurasheva</div>
               </div>
             </div>
             <div className={styles.cell}>
               <div className={styles.content}>
-                <div className={styles.text}>Person 3 and Person 4</div>
+                <div className={styles.text}>Aizhan Daniyarova</div>
               </div>
             </div>
           </div>
@@ -307,12 +307,12 @@ const Desktop8: FunctionComponent = () => {
           <div className={styles.row}>
             <div className={styles.cell}>
               <div className={styles.content}>
-                <div className={styles.text}>Person 1 and Person 2</div>
+                <div className={styles.text}>Yahvi Gupta & Ridhima Devgan</div>
               </div>
             </div>
             <div className={styles.cell}>
               <div className={styles.content}>
-                <div className={styles.text}>Person 3 and Person 4</div>
+                <div className={styles.text}>Modester Phiri</div>
               </div>
             </div>
           </div>
@@ -323,12 +323,12 @@ const Desktop8: FunctionComponent = () => {
           <div className={styles.row}>
             <div className={styles.cell}>
               <div className={styles.content}>
-                <div className={styles.text}>Person 1 and Person 2</div>
+                <div className={styles.text}>Ileso Ohiozokhai Daniel</div>
               </div>
             </div>
             <div className={styles.cell}>
               <div className={styles.content}>
-                <div className={styles.text}>Person 3 and Person 4</div>
+                <div className={styles.text}>Will Covington & Aden Smith</div>
               </div>
             </div>
           </div>
@@ -339,12 +339,12 @@ const Desktop8: FunctionComponent = () => {
           <div className={styles.row}>
             <div className={styles.cell}>
               <div className={styles.content}>
-                <div className={styles.text}>Person 1 and Person 2</div>
+                <div className={styles.text}>Isai Balamurugan</div>
               </div>
             </div>
             <div className={styles.cell}>
               <div className={styles.content}>
-                <div className={styles.text}>Person 3 and Person 4</div>
+                <div className={styles.text}>Fernanda Herrada vs Rushil Chawla</div>
               </div>
             </div>
           </div>
@@ -355,12 +355,13 @@ const Desktop8: FunctionComponent = () => {
           <div className={styles.row}>
             <div className={styles.cell}>
               <div className={styles.content}>
-                <div className={styles.text}>Person 1 and Person 2</div>
+                <div className={styles.text}>Hayselyz Rodriguez Soto</div>
               </div>
             </div>
             <div className={styles.cell}>
               <div className={styles.content}>
-                <div className={styles.text}>Person 3 and Person 4</div>
+                <div className={styles.text}>Shahd Eltohamy & Serra Elshorbagy
+</div>
               </div>
             </div>
           </div>
@@ -371,12 +372,12 @@ const Desktop8: FunctionComponent = () => {
           <div className={styles.row}>
             <div className={styles.cell}>
               <div className={styles.content}>
-                <div className={styles.text}>Person 1 and Person 2</div>
+                <div className={styles.text}>Keran Chen & Kathy Sun</div>
               </div>
             </div>
             <div className={styles.cell}>
               <div className={styles.content}>
-                <div className={styles.text}>Person 3 and Person 4</div>
+                <div className={styles.text}>Jad Vicente</div>
               </div>
             </div>
           </div>
@@ -387,34 +388,17 @@ const Desktop8: FunctionComponent = () => {
           <div className={styles.row}>
             <div className={styles.cell}>
               <div className={styles.content}>
-                <div className={styles.text}>Person 1 and Person 2</div>
+                <div className={styles.text}>Niyorurema Happy Herman</div>
               </div>
             </div>
             <div className={styles.cell}>
               <div className={styles.content}>
-                <div className={styles.text}>Person 3 and Person 4</div>
+                <div className={styles.text}>Nshuti Lionel vs Yug Mehta</div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className={styles.table20}>
-        <div className={styles.table}>
-          <div className={styles.row}>
-            <div className={styles.cell}>
-              <div className={styles.content}>
-                <div className={styles.text}>Person 1 and Person 2</div>
-              </div>
-            </div>
-            <div className={styles.cell}>
-              <div className={styles.content}>
-                <div className={styles.text}>Person 3 and Person 4</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
   );
 };
 
