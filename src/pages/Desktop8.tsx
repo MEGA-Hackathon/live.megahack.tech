@@ -6,7 +6,7 @@ const Desktop8: FunctionComponent = () => {
   const [time, setTimer] = useState<any>()
 
   useEffect(() => {
-    var countDownDate = new Date("May 20, 2023 00:00:00").getTime();
+    var countDownDate = new Date("May 21, 2023 18:00:00").getTime();
 
     var countdownInterval = setInterval(function() {
       var now = new Date().getTime();
